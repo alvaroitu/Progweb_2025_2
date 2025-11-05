@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: rgb(97, 138, 130);
+}
+
+#passou {
+    color: green;
+    font-size: 1.5rem;
+}
+
+#naopassou {
+    color: red;
+    font-size: 1.5rem;
+}

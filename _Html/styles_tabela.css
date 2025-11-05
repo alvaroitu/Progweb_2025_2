@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid black;
+    }
+
+table, th, td {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 24px;
+}
+
+ol {
+    list-style-type: lower-roman;
+    font-size: 24px;
+}
+
+.listas-container {
+    border: solid;
+    display: flex; /* Usar flexbox para colocar as listas lado a lado */
+    justify-content: space-around;
+    gap: 20px; /* Espaçamento entre as listas */
+}
