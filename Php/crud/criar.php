@@ -8,7 +8,8 @@ $sql = 'CREATE DATABASE IF NOT EXISTS progweb_php';
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 
-$sql = "INSERT INTO usuarios (nome, email) VALUES ('$nome', '$email')";
+$sql = "INSERT INTO usuarios (nome, email) 
+VALUES ('$nome', '$email')";
 
 $conexao = novaConexao();
 
